@@ -1,0 +1,52 @@
+{
+	"START": {
+		"name": "front of the cave",
+		"desc": "you are standing in front of  a cave that is barely lit",
+		"exits": [
+			{
+				"exit": "INSIDE",
+				"target": "ICAVE1"
+			}
+		]
+	}
+	,"ICAVE1": {
+		"name": "inside the cave",
+		"desc": "You are now inside the cave, there are random boxes and items scattered across the floor, and two exits leading right and left.",
+		"exits": [
+			{
+				"exit": "RIGHT",
+				"target": "ROOMR"
+			{
+				"exit": "LEFT",
+				"target": "ROOML",
+	}
+{
+,"ROOMR": {
+	"name": "right room",
+	"desc": " you are now in another room with more random boxes",
+	"exits": [
+		{
+			"exit": "back",
+			"target": "front",
+		}
+	]
+{
+	"ROOML": {
+		"name":"hall way",
+		"desc":"you are now looking at a hall  with two rooms to the left and one on the right",
+		"exits":[
+			{
+				"exit":"room 1",
+				"target": "ROOM1",
+				
+				"exit":"room 2",
+				"target":"ROOM2",
+
+				"exit": "room 3",
+				"target": "ROOM3",
+
+				"exit": "room 4",
+				"target": "ROOM4",
+
+			}
+		]
